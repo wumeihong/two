@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: .14rem; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+b {
+  font-weight: normal; }
+
+ul, li, ol {
+  list-style: none; }
+
+html {
+  font-size: 625%; }
+
+header a, section .menu a, section .bottom a, section .guess dl dt {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background: #f0efed; }
+
+header {
+  width: 100%;
+  height: .4rem;
+  background: #06c1ae;
+  display: flex; }
+  header a {
+    flex: 1;
+    color: #fff; }
+    header a:nth-child(2) {
+      flex: 3; }
+    header a i {
+      font-size: .2rem;
+      margin-left: .1rem; }
+    header a input {
+      padding-left: .15rem;
+      background: #06c1ae;
+      border: none;
+      outline: none;
+      font-size: .16rem; }
+    header a input::placeholder-webkit-input-placeholder {
+      color: #fff; }
+
+footer {
+  width: 100%;
+  height: .4rem; }
+
+section {
+  width: 100%;
+  flex: 1;
+  overflow-y: scroll; }
+  section .banner {
+    width: 100%;
+    height: auto; }
+    section .banner img {
+      width: 100%;
+      height: auto; }
+  section .menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: .1rem .1rem;
+    background: #fff; }
+    section .menu a {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      margin-top: .15rem; }
+      section .menu a img {
+        width: .6rem;
+        height: .6rem; }
+      section .menu a b {
+        margin-top: .1rem; }
+  section .bottom {
+    margin-top: .15rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: #fff;
+    padding: .1rem .1rem; }
+    section .bottom a {
+      width: 33.33%;
+      flex-direction: column;
+      border-right: 1px solid #ccc; }
+      section .bottom a p:nth-child(1) {
+        font-size: .24rem;
+        font-weight: bold;
+        color: #74b43b;
+        margin-bottom: .15rem; }
+      section .bottom a p:nth-child(2) {
+        font-size: .16rem;
+        color: #979797; }
+      section .bottom a img {
+        width: 1rem;
+        height: 1rem; }
+      section .bottom a:nth-child(3) {
+        border-right: none; }
+  section .guess {
+    width: 100%;
+    height: auto;
+    margin-top: .15rem;
+    background: #fff; }
+    section .guess h3 {
+      padding: .15rem .15rem; }
+    section .guess dl {
+      padding: .15rem .15rem;
+      display: flex; }
+      section .guess dl dt img {
+        width: .8rem;
+        height: .8rem; }
+      section .guess dl dd {
+        margin-left: .15rem;
+        line-height: .3rem; }
+        section .guess dl dd p:nth-child(1) {
+          font-size: .2rem; }
+        section .guess dl dd p:nth-child(3) {
+          font-size: .2rem;
+          font-weight: bold;
+          color: #00cccc; }
+
+/*# sourceMappingURL=style.css.map */
